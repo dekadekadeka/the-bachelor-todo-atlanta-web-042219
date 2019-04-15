@@ -51,5 +51,5 @@ def get_average_age_for_season(data, season)
   #binding.pry
     sum += ages
   end
-  return average = (sum.round(half: :up) / data[season].length)
+  return average = (sum / data[season].length)
 end
