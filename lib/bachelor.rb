@@ -51,6 +51,6 @@ def get_average_age_for_season(data, season)
   #binding.pry
       sum += ages
     end
-      return average = (sum / contestants.length).to_i
+      return average = (sum / contestants.length)
   end
 end
