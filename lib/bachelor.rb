@@ -44,12 +44,12 @@ end
 def get_average_age_for_season(data, season)
   # code here
   sum = 0
-  data.each do |season, contestants|
-    contestants.each do |contestant|
+  # data.each do |season, contestants|
+  #   contestants.each do |contestant|
       ages = contestant["age"].to_f
       sum += ages
     end
       return average = (sum / contestants.length).to_i
-#binding.pry
+binding.pry
   end
 end
